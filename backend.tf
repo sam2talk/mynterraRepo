@@ -4,5 +4,6 @@ terraform {
     key = "main"
     region = "us-east-1"
     dynamodb_table = "terratestingDB"
+    encrypt = true
   }
 }
