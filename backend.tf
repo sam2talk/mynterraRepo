@@ -5,5 +5,7 @@ terraform {
     region = "us-east-1"
     dynamodb_table = "terratestingDB"
     encrypt = true
+    partition_key = "my-partkey1"
+    sort_key = "my-sortkey01"
   }
 }
